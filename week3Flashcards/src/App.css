@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.app {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+/* Input Section Styles */
+.input-section {
+  margin-top: 1rem;
+}
+
+.user-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 200px;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
+.user-input.correct {
+  background-color: #4bf573;
+}
+
+.user-input.incorrect {
+  background-color: #f53d4d;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+/* Navigation Buttons */
+.navigation {
+  margin-top: 2rem;
+}
